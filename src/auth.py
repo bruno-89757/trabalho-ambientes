@@ -21,11 +21,11 @@ def login():
     Returns:
         str | None: Tipo de utilizador se login bem-sucedido, None caso contrário
     """
-    username = input("Usuário: ")
-    senha = input("Senha: ")
+    username = input("Nome do Utilizador: ")
+    senha = input("Palavra-passe: ")
     if username in usuarios and usuarios[username] == senha:
         print(f"Login bem-sucedido como {username}")
         return username
     else:
-        print("Usuário ou senha inválidos.")
+        print("Nome de utilizador ou senha inválidos.")
         return None
