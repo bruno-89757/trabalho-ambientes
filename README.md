@@ -45,6 +45,17 @@ O desenvolvimento foi realizado de forma colaborativa, utilizando **Git** para c
 ---
 
 ## 3. Estrutura do Projeto
+```text
+TP2-Escola-Conducao/
+│
+├── main.py # Menu principal e integração dos módulos
+├── models.py # Classes principais (Aluno, Instrutor, Veículo, Aula)
+├── crud_aluno.py # Operações CRUD de alunos
+├── crud_instrutor.py # Operações CRUD de instrutores
+├── crud_veiculo.py # Operações CRUD de veículos
+├── crud_aula.py # Operações CRUD de aulas
+├── auth.py # Login e autenticação
+├── README.md # Documentação do projeto
+└── .git/ # Repositório Git
 
-
-
+```
